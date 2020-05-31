@@ -32,14 +32,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "^0.14.0",
+    "@stencil/core": "latest",
     "@stencil/dev-server": "latest",
-    "@stencil/postcss": "^0.1.0",
-    "@stencil/sass": "^0.1.1",
+    "@stencil/postcss": "latest",
+    "@stencil/sass": "latest",
     "@stencil/utils": "latest",
-    "@types/jest": "^23.3.5",
-    "autoprefixer": "^9.2.1",
-    "jest": "^23.6.0"
+    "@types/jest": "latest",
+    "autoprefixer": "latest",
+    "jest": "latest"
   },
   "repository": {
     "type": "git",
