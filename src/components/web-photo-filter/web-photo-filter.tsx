@@ -131,6 +131,9 @@ export class WebPhotoFilterComponent {
 
     if (!canvas) {
       canvas = this.createCanvas(image);
+    } else {
+      canvas.width = image.naturalWidth;
+      canvas.height = image.naturalHeight;
     }
 
     if (!this.keep) {
